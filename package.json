@@ -1,0 +1,23 @@
+{
+  "name": "qshell-bin",
+  "version": "1.0.0",
+  "keywords": [
+    "qshell",
+    "qiniu"
+  ],
+  "description": "Bin wrapper for qshell v1.8.5",
+  "repository": "bipedd/qshell-bin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": {
+    "qshell": "./cli.js"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
