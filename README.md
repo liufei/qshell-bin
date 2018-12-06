@@ -1,4 +1,4 @@
-qshell-bin
+# qshell-bin
 
 > 将七牛命令行工具作为 Node.js 依赖使用
 
@@ -15,16 +15,16 @@ yarn add qshell-bin -D
 ```json
 "scripts": {
   "deploy": "qshell qupload .qshell.json"
-},
+}
 ```
 
-在`.qshell.json`中填写配置：
+创建`.qshell.json`文件，并填写配置：
 
 ```json
 {
   "access_key": "",
   "secret_key": "",
-  "src_dir": "build",
+  "src_dir": "",
   "bucket": "",
   "key_prefix": "",
   "rescan_local": true,
@@ -37,3 +37,7 @@ yarn add qshell-bin -D
 ```sh
 yarn deploy
 ```
+
+## 版本
+
+qshell v1.8.5
