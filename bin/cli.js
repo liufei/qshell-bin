@@ -5,6 +5,8 @@ const manifest = require('../manifest.json')
 const { spawn } = require('child_process')
 
 const bin = path.join(
+  __dirname,
+  '..',
   manifest.destination,
   manifest.filename[process.platform][process.arch]
 )
