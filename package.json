@@ -1,11 +1,11 @@
 {
   "name": "qshell-bin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "qshell",
     "qiniu"
   ],
-  "description": "Bin wrapper for qshell v1.8.5",
+  "description": "Bin wrapper for qshell",
   "repository": "bipedd/qshell-bin",
   "license": "MIT",
   "engines": {
