@@ -1,0 +1,19 @@
+{
+  "url": "http://devtools.qiniu.com/qshell-v1.8.5.zip",
+  "destination": "vendor",
+  "filename": {
+    "darwin": {
+      "x32": "qshell_darwin_386",
+      "x64": "qshell_darwin_amd64"
+    },
+    "linux": {
+      "x32": "qshell_linux_386",
+      "x64": "qshell_linux_amd64",
+      "arm": "qshell_linux_arm"
+    },
+    "win32": {
+      "x32": "qshell_windows_386.exe",
+      "x64": "qshell_windows_amd64.exe"
+    }
+  }
+}

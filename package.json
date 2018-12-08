@@ -12,10 +12,15 @@
     "node": ">=8"
   },
   "bin": {
-    "qshell": "./cli.js"
+    "qshell": "bin/cli.js"
   },
   "scripts": {
+    "install": "node scripts/install.js",
     "lint": "standard --fix"
+  },
+  "dependencies": {
+    "download": "5.0.3",
+    "fs-extra": "^7.0.1"
   },
   "devDependencies": {
     "standard": "^12.0.1"
