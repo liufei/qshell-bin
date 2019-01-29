@@ -1,14 +1,28 @@
 # qshell-bin
 
-> 将七牛命令行工具作为 Node.js 依赖使用
+> 简化 qshell 安装过程
 
-## 安装
+## 作为命令行工具
+
+### 安装
 
 ```sh
-yarn add qshell-bin -D
+npm i -g qshell-bin
 ```
 
-## 使用
+### 使用
+
+[官方文档](https://github.com/qiniu/qshell)
+
+## 作为项目依赖
+
+### 安装
+
+```sh
+npm i -D qshell-bin
+```
+
+### 使用
 
 在`package.json`中增加以下内容：
 
@@ -35,7 +49,7 @@ yarn add qshell-bin -D
 在项目编译完成后，执行以下命令上传文件到七牛 CDN：
 
 ```sh
-yarn deploy
+npm run deploy
 ```
 
 ## 版本
