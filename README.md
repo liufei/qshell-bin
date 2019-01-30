@@ -2,27 +2,27 @@
 
 > 简化 qshell 安装过程
 
-## 作为命令行工具
+### 作为命令行工具
 
-### 安装
+**安装**
 
 ```sh
 npm i -g qshell-bin
 ```
 
-### 使用
+**使用**
 
 [官方文档](https://github.com/qiniu/qshell)
 
-## 作为项目依赖
+### 作为项目依赖
 
-### 安装
+**安装**
 
 ```sh
 npm i -D qshell-bin
 ```
 
-### 使用
+**使用**
 
 在`package.json`中增加以下内容：
 
@@ -52,6 +52,6 @@ npm i -D qshell-bin
 npm run deploy
 ```
 
-## 版本
+### 版本
 
 qshell v1.8.5
