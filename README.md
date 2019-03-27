@@ -1,6 +1,6 @@
 # qshell-bin
 
-> 简化 qshell 安装过程
+> 一键安装 qshell
 
 ### 作为命令行工具
 
