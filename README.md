@@ -54,4 +54,4 @@ npm run deploy
 
 ### 版本
 
-qshell v1.8.5
+qshell v2.3.6
