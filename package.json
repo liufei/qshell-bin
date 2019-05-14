@@ -6,7 +6,7 @@
     "qiniu"
   ],
   "description": "Bin wrapper for qshell",
-  "repository": "bipedd/qshell-bin",
+  "repository": "liufei/qshell-bin",
   "license": "MIT",
   "engines": {
     "node": ">=8"
