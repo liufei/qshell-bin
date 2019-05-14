@@ -3,7 +3,6 @@
   "destination": "vendor",
   "filename": {
     "darwin": {
-      "x32": "",
       "x64": "qshell_darwin_x64"
     },
     "linux": {
