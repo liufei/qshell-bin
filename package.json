@@ -5,7 +5,7 @@
     "qshell",
     "qiniu"
   ],
-  "description": "Bin wrapper for qshell",
+  "description": "一键安装 qshell",
   "repository": "liufei/qshell-bin",
   "license": "MIT",
   "engines": {
@@ -15,14 +15,10 @@
     "qshell": "bin/cli.js"
   },
   "scripts": {
-    "install": "node scripts/install.js",
-    "lint": "standard --fix"
+    "install": "node scripts/install.js"
   },
   "dependencies": {
     "download": "5.0.3",
     "fs-extra": "^7.0.1"
-  },
-  "devDependencies": {
-    "standard": "^12.0.1"
   }
 }

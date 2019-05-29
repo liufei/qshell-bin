@@ -4,6 +4,18 @@
 
 ## 作为命令行工具
 
+### 全局
+
+**安装**
+
+```sh
+npm i -g qshell-bin
+```
+
+**使用**
+
+[官方文档](https://github.com/qiniu/qshell)
+
 ### 本地
 
 **安装**
@@ -18,7 +30,7 @@ npm i -D qshell-bin
 
 ```json
 "scripts": {
-  "deploy": "qshell account $ACCESS_KEY $SECRET_KEY user_root && qshell qupload .qsh
+  "deploy": "qshell account $ACCESS_KEY $SECRET_KEY user_qshell && qshell qupload .qsh
  ell.json"
 }
 ```
@@ -41,18 +53,6 @@ npm i -D qshell-bin
 npm run deploy
 ```
 
-### 全局
-
-**安装**
-
-```sh
-npm i -g qshell-bin
-```
-
-**使用**
-
-[官方文档](https://github.com/qiniu/qshell)
-
 ## 作为项目依赖
 
 **安装**
@@ -68,5 +68,5 @@ npm i -D qshell-bin
 ```js
 const qshell = require('qshell-bin')
 
-qshell(['--version']) // qshell version v2.3.6
+qshell(['--version'])
 ```
