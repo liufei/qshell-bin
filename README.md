@@ -2,19 +2,9 @@
 
 > 一键安装 qshell
 
-### 作为命令行工具
+## 作为命令行工具
 
-**安装**
-
-```sh
-npm i -g qshell-bin
-```
-
-**使用**
-
-[官方文档](https://github.com/qiniu/qshell)
-
-### 作为项目依赖
+### 本地
 
 **安装**
 
@@ -28,7 +18,8 @@ npm i -D qshell-bin
 
 ```json
 "scripts": {
-  "deploy": "qshell qupload .qshell.json"
+  "deploy": "qshell account $ACCESS_KEY $SECRET_KEY user_root && qshell qupload .qsh
+ ell.json"
 }
 ```
 
@@ -36,8 +27,6 @@ npm i -D qshell-bin
 
 ```json
 {
-  "access_key": "",
-  "secret_key": "",
   "src_dir": "",
   "bucket": "",
   "key_prefix": "",
@@ -52,6 +41,32 @@ npm i -D qshell-bin
 npm run deploy
 ```
 
-### 版本
+### 全局
 
-qshell v2.3.6
+**安装**
+
+```sh
+npm i -g qshell-bin
+```
+
+**使用**
+
+[官方文档](https://github.com/qiniu/qshell)
+
+## 作为项目依赖
+
+**安装**
+
+```sh
+npm i -D qshell-bin
+```
+
+**使用**
+
+在代码中引入：
+
+```js
+const qshell = require('qshell-bin')
+
+qshell(['--version']) // qshell version v2.3.6
+```
